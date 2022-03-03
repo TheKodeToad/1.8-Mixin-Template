@@ -35,6 +35,11 @@ minecraft {
 	makeObfSourceJar = false
 }
 
+mixin {
+	defaultObfuscationEnv notch
+	add sourceSets.main, "mixins.mixintemplate.refmap.json"
+}
+
 repositories {
 	mavenCentral()
 	maven {
