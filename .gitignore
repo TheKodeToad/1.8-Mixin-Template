@@ -18,6 +18,7 @@ gradle-app.setting
 /.classpath
 /.project
 /bin
+/*.launch
 
 # IntelliJ IDEA
 /.idea
