@@ -3,5 +3,5 @@
 	"package": "me.mcblueparrot.mixintemplate.mixin",
 	"compatibilityLevel": "JAVA_8",
 	"refmap": "mixins.mixintemplate.refmap.json",
-	"client": ["MixinMinecraft"]
+	"client": []
 }
