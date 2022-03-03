@@ -1,6 +1,0 @@
-{
-	"required": true,
-	"package": "me.mcblueparrot.exampleclient.mixin",
-	"compatibilityLevel": "JAVA_8",
-	"refmap": "mixins.exampleclient.refmap.json"
-}
