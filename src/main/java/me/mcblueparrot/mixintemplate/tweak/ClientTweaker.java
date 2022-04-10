@@ -39,7 +39,11 @@ public class ClientTweaker implements ITweaker {
 		Mixins.addConfiguration("mixins.mixintemplate.json");
 
 		MixinEnvironment environment = MixinEnvironment.getDefaultEnvironment();
-		environment.setObfuscationContext("notch");
+
+		if(environment.getObfuscationContext() == null) {
+			environment.setObfuscationContext("notch");
+		}
+
 		environment.setSide(Side.CLIENT);
 	}
 
